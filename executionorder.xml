@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sample">
+
+<listeners>
+<listener class-name="learning.Testlisten"></listener>
+</listeners>
+
+  <test name="Learning order">
+     <parameter name="Browser" value="Firefox">
+     
+     </parameter>
+     
+    
+    <classes>
+   
+           <class name="learning.Testngdataprovider">
+           <methods>
+           
+
+           </methods>
+           
+           </class> 
+    </classes>
+
+
+ </test>
+</suite> <!-- Suite -->
